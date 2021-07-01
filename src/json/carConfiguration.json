@@ -1,0 +1,273 @@
+[
+    {
+        "id": 1,
+        "carModel": {
+            "model": "Toyota GT86", 
+            "basePrice": 60000
+        },
+        "avaiableConfiguration":{
+            "engines": [
+                {
+                    "engine": "2.0L 166BHP",
+                    "addPrice": 0,
+                    "onlyAutomaticGearbox": false
+                },
+                {
+                    "engine": "2.2L 196BHP",
+                    "addPrice": 7000,
+                    "onlyAutomaticGearbox": false
+                },
+                {
+                    "engine": "2.5L 230BHP",
+                    "addPrice": 10000,
+                    "onlyAutomaticGearbox": false
+                },
+                {
+                    "engine": "3.0L 280BHP",
+                    "addPrice": 14000,
+                    "onlyAutomaticGearbox": true
+                }
+            ],
+            "gearbox": [
+                {
+                    "gearboxType": "manual",
+                    "addPrice": 0
+                },
+                {
+                    "gearboxType": "automatic",
+                    "addPrice": 5000
+                }
+            ],
+            "colors": [
+                {
+                    "colorName": "Muleta Red",
+                    "hexValue": "#bd1b0f",
+                    "addPrice": 0
+                },
+                {
+                    "colorName": "Pan White",
+                    "hexValue": "#f5f5f5",
+                    "addPrice": 3000
+                },
+                {
+                    "colorName": "Topaz Yellow",
+                    "hexValue": "#e3ca2b",
+                    "addPrice": 3500
+                },
+                {
+                    "colorName": "Cream Opal",
+                    "hexValue": "#c8fad4",
+                    "addPrice": 5000
+                },
+                {
+                    "colorName": "Riviera blue",
+                    "hexValue": "#33f5ff",
+                    "addPrice": 5000
+                }
+            ]
+        }
+        
+    },
+    {
+        "id": 2,
+        "carModel": {
+            "model": "Audi A5", 
+            "basePrice": 75000
+        },
+        "avaiableConfiguration":{
+            "engines": [
+                {
+                    "engine": "1.8L 160BHP",
+                    "addPrice": 0,
+                    "onlyAutomaticGearbox": false
+                },
+                {
+                    "engine": "2.0L 180BHP",
+                    "addPrice": 6000,
+                    "onlyAutomaticGearbox": false
+                },
+                {
+                    "engine": "3.0L 230BHP",
+                    "addPrice": 10000,
+                    "onlyAutomaticGearbox": false
+                },
+                {
+                    "engine": "3.2L 265BHP",
+                    "addPrice": 12000,
+                    "onlyAutomaticGearbox": true
+                }
+                ,
+                {
+                    "engine": "4.2L 354BHP",
+                    "addPrice": 20000,
+                    "onlyAutomaticGearbox": true
+                }
+            ],
+            "gearbox":[
+                {
+                    "gearboxType": "manual",
+                    "addPrice": 0
+                },
+                {
+                    "gearboxType": "automatic",
+                    "addPrice": 5000
+                }
+            ],
+            "colors": [
+                {
+                    "colorName": "Glacier White",
+                    "hexValue": "#fcfcfc",
+                    "addPrice": 0
+                },
+                {
+                    "colorName": "Moonsoon Grey",
+                    "hexValue": "#1a402b",
+                    "addPrice": 2000
+                },
+                {
+                    "colorName": "Scuba Blue",
+                    "hexValue": "#0f20ba",
+                    "addPrice": 3000
+                },
+                {
+                    "colorName": "Missano Red",
+                    "hexValue": "#ff1c42",
+                    "addPrice": 5500
+                }
+            ]
+        }
+        
+    },
+    {
+        "id": 3,
+        "carModel": {
+            "model": "Mercedes SLS 63", 
+            "basePrice": 150000
+        },
+        "avaiableConfiguration":{
+            "engines": [
+                {
+                    "engine": "3.0L 280BHP",
+                    "addPrice": 0,
+                    "onlyAutomaticGearbox": true
+                },
+                {
+                    "engine": "3.6L 374BHP",
+                    "addPrice": 15000,
+                    "onlyAutomaticGearbox": true
+                },
+                {
+                    "engine": "4.2L 443BHP",
+                    "addPrice": 30000,
+                    "onlyAutomaticGearbox": true
+                },
+                {
+                    "engine": "5.2L 532BHP",
+                    "addPrice": 45000,
+                    "onlyAutomaticGearbox": true
+                }
+            ],
+            "gearbox":[
+                {
+                    "gearboxType": "manual",
+                    "addPrice": 0
+                },
+                {
+                    "gearboxType": "automatic",
+                    "addPrice": 5000
+                }
+            ],
+            "colors":[
+                {
+                    "colorName": "Citrine Brown",
+                    "hexValue": "#754800",
+                    "addPrice": 0
+                },
+                {
+                    "colorName": "Canvansite Blue",
+                    "hexValue": "#002aff",
+                    "addPrice": 2000
+                },
+                {
+                    "colorName": "Hyacinth Red",
+                    "hexValue": "#d14747",
+                    "addPrice": 3000
+                },
+                {
+                    "colorName": "Diamond Silver",
+                    "hexValue": "#e8e8e8",
+                    "addPrice": 3500
+                }
+            ]
+        }
+        
+    },
+    {
+        "id": 4,
+        "carModel": {
+            "model": "Tesla Roadster", 
+            "basePrice": 170000
+        },
+        "avaiableConfiguration":{
+            "engines": [
+                {
+                    "engine": "40 kWh 257BHP",
+                    "addPrice": 0,
+                    "onlyAutomaticGearbox": false
+                },
+                {
+                    "engine": "60 kWh 370BHP",
+                    "addPrice": 10000,
+                    "onlyAutomaticGearbox": true
+                },
+                {
+                    "engine": "85 kWh 483BHP",
+                    "addPrice": 20000,
+                    "onlyAutomaticGearbox": true
+                },
+                {
+                    "engine": "P100d 572BHP",
+                    "addPrice": 30000,
+                    "onlyAutomaticGearbox": true
+                }
+            ],
+            "gearbox":[
+                {
+                    "gearboxType": "manual",
+                    "addPrice": 0
+                },
+                {
+                    "gearboxType": "automatic",
+                    "addPrice": 5000
+                }
+            ],
+            "colors":[
+                {
+                    "colorName": "Arctic White",
+                    "hexValue": "#ffffff",
+                    "addPrice": 0
+                },
+                {
+                    "colorName": "Brilliant Yellow",
+                    "hexValue": "#f6ff00",
+                    "addPrice": 2000
+                },
+                {
+                    "colorName": "Electric Blue",
+                    "hexValue": "#0088ff",
+                    "addPrice": 3000
+                },
+                {
+                    "colorName": "Racing red",
+                    "hexValue": "#ff002f",
+                    "addPrice": 3500
+                },
+                {
+                    "colorName": "Very orange",
+                    "hexValue": "#ffae00",
+                    "addPrice": 5000
+                }
+            ]
+        }
+    }
+]
