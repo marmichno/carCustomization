@@ -5,9 +5,36 @@
     padding:0;
 }
 
-h1{
-    font-size:4em;
-    font-family: Roboto;
+body{
+    overflow-x:hidden;
+
+    @media screen and (max-width:1575px){
+        font-size:13px;
+    }
+
+    @media screen and (max-width:1285px){
+        font-size:12px;
+    }
+
+    @media screen and (max-width:1182px){
+        font-size:11px;
+    }
+
+    @media screen and (max-width:1080px){
+        font-size:10px;
+    }
+
+    @media screen and (max-width:500px){
+        font-size:9px;
+    }
+
+    @media screen and (min-width:980px) and (max-height: 650px){
+        font-size:11px;
+    }
+
+    @media screen and (min-width:980px) and (max-height: 550px){
+        font-size:10px;
+    }
 }
 
 h2{
@@ -18,11 +45,35 @@ h2{
 h3{
     font-size:2.5em;
     font-family: Roboto;
+
+    @media screen and (max-width:980px){
+        font-size:2.5em;
+    }
+
+    @media screen and (max-width:840px){
+        font-size:2em;
+    }
+
+    @media screen and (max-width:678px){
+        font-size:1.5em;
+    }
+
+    @media screen and (max-width:544px){
+        font-size:1.3em;
+    }
+
+    @media screen and (max-width:500px){
+        font-size:1.1em;
+    }
 }
 
 h4{
     font-size:1.7em;
     font-family: Roboto;
+
+    @media screen and (max-width:500px){
+        font-size:1em;
+    }
 }
 
 button{

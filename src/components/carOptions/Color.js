@@ -25,13 +25,13 @@ export const Color = ({currentCar}) => {
 
     return(
         <div className="optionContainer">
-            <h3>Color</h3>
+            <h2>Color</h2>
             <div className="colorsContainer">
                 {currentCar.avaiableConfiguration.colors.map(value => {
                     return value === currentColor ? 
-                    <button style={{backgroundColor:value, transform:"scale(1.2)"}}></button> 
+                    <button key={value.hexValue} style={{backgroundColor:value, transform:"scale(1.2)"}}></button> 
                     : 
-                    <button onClick={changeColor} data-colorid={value.hexValue} style={{backgroundColor:value.hexValue, opacity:"0.4"}}></button>
+                    <button key={value.hexValue} onClick={changeColor} data-colorid={value.hexValue} style={{backgroundColor:value.hexValue, opacity:"0.4"}}></button>
                 })}
             </div>
         </div>

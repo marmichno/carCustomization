@@ -1,7 +1,7 @@
 import {Suspense} from 'react';
-import { Canvas, useFrame } from '@react-three/fiber'
+import { Canvas } from '@react-three/fiber'
 import {CarModel} from '../car/CarModel';
-import { useGLTF, OrbitControls, ContactShadows, Environment} from '@react-three/drei'
+import { OrbitControls, ContactShadows, Environment} from '@react-three/drei'
 import { ReactReduxContext, Provider } from 'react-redux';
 
 export const CarModelCanvas = ({currentColor}) => {

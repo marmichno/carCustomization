@@ -30,17 +30,17 @@ export const Gearbox = ({currentCar}) => {
 
     return(
         <div className="optionContainer">
-            <h3>Gearbox</h3>
+            <h2>Gearbox</h2>
             <div className="buttonsContainer">
                 {currentCar.avaiableConfiguration.gearbox.map(value => {
                     if(currentEngine.onlyAutomaticGearbox){
                         dispatch(selectCarGearbox(currentCar.avaiableConfiguration.gearbox.filter(value => value.gearboxType === "automatic" ? true : false)[0]));
-                        return value.gearboxType === "automatic" ? <button>{value.gearboxType}</button> : null;
+                        return value.gearboxType === "automatic" ? <button key={value.gearboxType}>{value.gearboxType}</button> : null;
                     }else{
                     return value === currentGearbox ? 
-                    <button>{value.gearboxType}</button>
+                    <button key={value.gearboxType}>{value.gearboxType}</button>
                     :
-                    <button data-gearbox={value.gearboxType} onClick={changeGearbox} style={{opacity:"0.4"}}>{value.gearboxType}</button>
+                    <button key={value.gearboxType} data-gearbox={value.gearboxType} onClick={changeGearbox} style={{opacity:"0.4"}}>{value.gearboxType}</button>
                     }
                 })}
             </div>

@@ -1,0 +1,16 @@
+.customizationMainContainer{
+
+    .canvas{
+        width:85%;
+        height:85%;
+        z-index:1;
+        cursor: move; /* fallback if grab cursor is unsupported */
+        cursor: grab;
+
+        @media screen and (max-width:980px){
+            height:100%;
+            width:100%;
+            grid-row:3;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.customizationMainContainer{
+
+    .configurationSummary{
+        width:80%;
+        height:5%;
+        @include flexCenter();
+        justify-content:left;
+        color:white;
+        background-color:rgba(0, 0, 0, 0.5);
+        border-top:1px solid black;
+        box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.75);
+
+        @media screen and (max-width:980px){
+            height:100%;
+            width:100%;
+            text-align:center;
+            grid-row:4;
+            background-color:none;
+            border:none;
+            box-shadow:none;
+        }
+
+        div{
+            @include flexCenter();
+            margin-right:2em;
+            margin-left:2em;
+
+            @media screen and (max-width:980px){
+                width:90%;
+                height:100%;
+                margin-left:0em;
+                margin-right:1em;
+                text-align:center;
+            }
+        }
+    }
+}

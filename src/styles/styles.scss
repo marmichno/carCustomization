@@ -1,3 +1,7 @@
 @import './global';
 @import './mixins';
-@import '../components/carCustomizationContainer/carCustomizationContainer'
+@import '../components/carCustomizationContainer/carCustomizationContainer';
+@import '../components/carModelCanvas/carModelCanvas';
+@import '../components/carOptions/carConfiguration';
+@import '../components/changeCar/changeCar';
+@import '../components/configurationSummary/configurationSummary';

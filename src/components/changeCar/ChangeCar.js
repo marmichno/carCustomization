@@ -1,6 +1,5 @@
 import {useDispatch, useSelector} from 'react-redux';
 import {selectCar} from '../../actions';
-import {selectCarColor} from '../../actions';
 import { useState, useEffect } from 'react';
 import Cars from '../../json/carConfiguration.json';
 
@@ -38,7 +37,10 @@ export const ChangeCar = () =>{
             <h4>Choose model</h4>
             {carModels === undefined ? null :
                 carModels.map(value => {
-                    return <h3 onClick={changeCar} data-id={value.id}>{value.carModel.model}</h3>
+                    return value === currentCar ?
+                    <h3 key={value.id} onClick={changeCar} style={{boxShadow:"0px 6px 0px -5px rgba(255,255,255,1)"}}data-id={value.id}>{value.carModel.model}</h3>
+                    :
+                    <h3 key={value.id} onClick={changeCar} data-id={value.id}>{value.carModel.model}</h3>
                 })
             }
         </div>

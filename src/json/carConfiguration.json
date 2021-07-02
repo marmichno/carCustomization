@@ -149,7 +149,7 @@
                 {
                     "engine": "3.0L 280BHP",
                     "addPrice": 0,
-                    "onlyAutomaticGearbox": true
+                    "onlyAutomaticGearbox": false
                 },
                 {
                     "engine": "3.6L 374BHP",

@@ -25,13 +25,13 @@ export const Engine = ({currentCar}) => {
 
     return(
         <div className="optionContainer">
-            <h3>Engine</h3>
+            <h2>Engine</h2>
             <div className="buttonsContainer">
                 {currentCar.avaiableConfiguration.engines.map(value => {
                     return value === currentEngine ?
-                     <button>{value.engine}</button>
+                     <button key={value.engine}>{value.engine}</button>
                      :
-                     <button onClick={changeEngine} data-engine={value.engine} style={{opacity:"0.4"}}>{value.engine}</button>
+                     <button key={value.engine} onClick={changeEngine} data-engine={value.engine} style={{opacity:"0.4"}}>{value.engine}</button>
                 })}
             </div>
         </div>
