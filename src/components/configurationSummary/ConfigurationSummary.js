@@ -11,14 +11,10 @@ export const ConfigurationSummary = () => {
     const [price, setPrice] = useState(0);
 
     useEffect(() => {
-        calculatePrice();
-    },[currentCar, currentEngine, currentGearbox, currentColor]);
-
-    const calculatePrice = () => {
         if(currentCar.id !== undefined){
             setPrice(currentCar.carModel.basePrice + currentEngine.addPrice + currentGearbox.addPrice + currentColor.addPrice);
         }
-    }
+    },[currentCar, currentEngine, currentGearbox, currentColor]);
 
     return(
         <>

@@ -24,7 +24,7 @@ export const ChangeCar = () =>{
         if(carModels[0] !== undefined){
             dispatch(selectCar(carModels[0]));
         }
-    },[carModels]);
+    },[carModels, dispatch]);
 
 
     const changeCar = (e) => {

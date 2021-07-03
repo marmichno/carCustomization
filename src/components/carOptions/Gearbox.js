@@ -1,5 +1,5 @@
 import {useSelector, useDispatch} from 'react-redux';
-import {useEffect} from 'react';
+import {useEffect, useCallback} from 'react';
 import {selectCarGearbox} from '../../actions';
 
 export const Gearbox = ({currentCar}) => {
@@ -8,19 +8,20 @@ export const Gearbox = ({currentCar}) => {
     const currentEngine = useSelector(state => state.selectCarEngineReducer);
     const dispatch = useDispatch();
 
-    //set default gearbox after car change / on initial render
-    useEffect(() => {
-        dispatch(selectCarGearbox(defaultGearbox()));
-    },[currentCar]);
-
+    
     //find default Gearbox - addPrice === 0 if engine is only avaiable with automatic transmission select automatic instead
-    const defaultGearbox = () => {
+    const defaultGearbox = useCallback(() => {
         if(currentEngine.onlyAutomaticGearbox){
             return currentCar.avaiableConfiguration.gearbox.filter(value => value.gearboxType === "automatic" ? true : false)[0];
         }else{
             return currentCar.avaiableConfiguration.gearbox.filter(value => value.addPrice === 0 ? true : false)[0];
         }
-    }
+    },[currentCar.avaiableConfiguration.gearbox, currentEngine.onlyAutomaticGearbox]);
+
+    //set default gearbox after car change / on initial render
+    useEffect(() => {
+        dispatch(selectCarGearbox(defaultGearbox()));
+    },[currentCar, defaultGearbox, dispatch]);
 
     //find clicked gearbox
     const changeGearbox = (e) =>{

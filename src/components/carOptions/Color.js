@@ -9,13 +9,8 @@ export const Color = ({currentCar}) => {
 
     //set default color after car change / on initial render
     useEffect(() => {
-        dispatch(selectCarColor(defaultColor()));
-    },[currentCar]);
-
-    //find default color - addPrice === 0
-    const defaultColor = () => {
-        return currentCar.avaiableConfiguration.colors.filter(value => value.addPrice === 0 ? true : false)[0];
-    }
+        dispatch(selectCarColor(currentCar.avaiableConfiguration.colors.filter(value => value.addPrice === 0 ? true : false)[0]));
+    },[currentCar, dispatch]);
 
     //find clicked color
     const changeColor = (e) =>{

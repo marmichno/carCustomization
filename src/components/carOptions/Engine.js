@@ -9,13 +9,8 @@ export const Engine = ({currentCar}) => {
 
     //set default engine after car change / on initial render
     useEffect(() => {
-        dispatch(selectCarEngine(defaultEngine()));
-    },[currentCar]);
-
-    //find default Engine - addPrice === 0
-    const defaultEngine = () => {
-    return currentCar.avaiableConfiguration.engines.filter(value => value.addPrice === 0 ? true : false)[0];
-    }
+        dispatch(selectCarEngine(currentCar.avaiableConfiguration.engines.filter(value => value.addPrice === 0 ? true : false)[0]));
+    },[currentCar, dispatch]);
 
     //find clicked engine
     const changeEngine = (e) =>{
