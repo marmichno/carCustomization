@@ -19,9 +19,7 @@ Car models are compressed using draco compression to adapt them for web standard
 
 ## Installation
 
-Download and install npm from https://www.npmjs.com/get-npm
-
-And run those comands in project directory:
+Run those commands in created project directory:
 ```sh
 git clone https://github.com/marmichno/carCustomization.git
 cd carCustomization
