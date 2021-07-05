@@ -1,7 +1,6 @@
 import {useDispatch, useSelector} from 'react-redux';
 import {selectCar} from '../../actions';
 import { useState, useEffect } from 'react';
-import Cars from '../../json/carConfiguration.json';
 
 export const ChangeCar = () =>{
 
@@ -16,7 +15,9 @@ export const ChangeCar = () =>{
 
     //simulates get request
     const getCarModels = async () => {
-        setCarModels(Cars);
+        const request = await import('../../json/carConfiguration.json');
+        const response = await request.default;
+        setCarModels(response);
     }
 
     //set first car after initial render

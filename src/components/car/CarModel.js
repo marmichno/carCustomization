@@ -7,7 +7,7 @@ export const CarModel = (props) => {
     const currentCar = useSelector(state => state.changeCarReducer);
     const currentColor = useSelector(state => state.selectCarColorReducer);
     
-    const { nodes, materials } = useGLTF(`/resources/carModels/car${currentCar.id}.glb`);
+    const { nodes, materials } = useGLTF(`/resources/carModels/car${currentCar.id}.gltf`);
     
     return(
     <group ref={group} {...props} dispose={null} position={[0, -1.1, 0]}>

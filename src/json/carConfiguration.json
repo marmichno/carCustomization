@@ -2,28 +2,28 @@
     {
         "id": 1,
         "carModel": {
-            "model": "Toyota GT86", 
+            "model": "Cadillac CTS", 
             "basePrice": 60000
         },
         "avaiableConfiguration":{
             "engines": [
                 {
-                    "engine": "2.0L 166BHP",
+                    "engine": "2.0L 166HP",
                     "addPrice": 0,
                     "onlyAutomaticGearbox": false
                 },
                 {
-                    "engine": "2.2L 196BHP",
+                    "engine": "2.2L 196HP",
                     "addPrice": 7000,
                     "onlyAutomaticGearbox": false
                 },
                 {
-                    "engine": "2.5L 230BHP",
+                    "engine": "2.5L 230HP",
                     "addPrice": 10000,
                     "onlyAutomaticGearbox": false
                 },
                 {
-                    "engine": "3.0L 280BHP",
+                    "engine": "3.0L 280HP",
                     "addPrice": 14000,
                     "onlyAutomaticGearbox": true
                 }
@@ -40,13 +40,13 @@
             ],
             "colors": [
                 {
-                    "colorName": "Muleta Red",
-                    "hexValue": "#bd1b0f",
+                    "colorName": "Pan White",
+                    "hexValue": "#f5f5f5",
                     "addPrice": 0
                 },
                 {
-                    "colorName": "Pan White",
-                    "hexValue": "#f5f5f5",
+                    "colorName": "Muleta Red",
+                    "hexValue": "#bd1b0f",
                     "addPrice": 3000
                 },
                 {
@@ -71,34 +71,34 @@
     {
         "id": 2,
         "carModel": {
-            "model": "Audi A5", 
+            "model": "Sanremo", 
             "basePrice": 75000
         },
         "avaiableConfiguration":{
             "engines": [
                 {
-                    "engine": "1.8L 160BHP",
+                    "engine": "1.8L 160HP",
                     "addPrice": 0,
                     "onlyAutomaticGearbox": false
                 },
                 {
-                    "engine": "2.0L 180BHP",
+                    "engine": "2.0L 180HP",
                     "addPrice": 6000,
                     "onlyAutomaticGearbox": false
                 },
                 {
-                    "engine": "3.0L 230BHP",
+                    "engine": "3.0L 230HP",
                     "addPrice": 10000,
                     "onlyAutomaticGearbox": false
                 },
                 {
-                    "engine": "3.2L 265BHP",
+                    "engine": "3.2L 265HP",
                     "addPrice": 12000,
                     "onlyAutomaticGearbox": true
                 }
                 ,
                 {
-                    "engine": "4.2L 354BHP",
+                    "engine": "4.2L 354HP",
                     "addPrice": 20000,
                     "onlyAutomaticGearbox": true
                 }
@@ -115,13 +115,13 @@
             ],
             "colors": [
                 {
-                    "colorName": "Glacier White",
-                    "hexValue": "#fcfcfc",
+                    "colorName": "Moonsoon Grey",
+                    "hexValue": "#1a402b",
                     "addPrice": 0
                 },
                 {
-                    "colorName": "Moonsoon Grey",
-                    "hexValue": "#1a402b",
+                    "colorName": "Glacier White",
+                    "hexValue": "#fcfcfc",
                     "addPrice": 2000
                 },
                 {
@@ -141,28 +141,28 @@
     {
         "id": 3,
         "carModel": {
-            "model": "Mercedes SLS 63", 
+            "model": "Giulia", 
             "basePrice": 150000
         },
         "avaiableConfiguration":{
             "engines": [
                 {
-                    "engine": "3.0L 280BHP",
+                    "engine": "3.0L 280HP",
                     "addPrice": 0,
                     "onlyAutomaticGearbox": false
                 },
                 {
-                    "engine": "3.6L 374BHP",
+                    "engine": "3.6L 374HP",
                     "addPrice": 15000,
                     "onlyAutomaticGearbox": true
                 },
                 {
-                    "engine": "4.2L 443BHP",
+                    "engine": "4.2L 443HP",
                     "addPrice": 30000,
                     "onlyAutomaticGearbox": true
                 },
                 {
-                    "engine": "5.2L 532BHP",
+                    "engine": "5.2L 532HP",
                     "addPrice": 45000,
                     "onlyAutomaticGearbox": true
                 }
@@ -179,8 +179,8 @@
             ],
             "colors":[
                 {
-                    "colorName": "Citrine Brown",
-                    "hexValue": "#754800",
+                    "colorName": "Hyacinth Red",
+                    "hexValue": "#d14747",
                     "addPrice": 0
                 },
                 {
@@ -189,8 +189,8 @@
                     "addPrice": 2000
                 },
                 {
-                    "colorName": "Hyacinth Red",
-                    "hexValue": "#d14747",
+                    "colorName": "Citrine Brown",
+                    "hexValue": "#754800",
                     "addPrice": 3000
                 },
                 {
@@ -205,29 +205,24 @@
     {
         "id": 4,
         "carModel": {
-            "model": "Tesla Roadster", 
+            "model": "Melkus", 
             "basePrice": 170000
         },
         "avaiableConfiguration":{
             "engines": [
                 {
-                    "engine": "40 kWh 257BHP",
+                    "engine": "3.5L 340HP",
                     "addPrice": 0,
                     "onlyAutomaticGearbox": false
                 },
                 {
-                    "engine": "60 kWh 370BHP",
+                    "engine": "4.2L 410HP",
                     "addPrice": 10000,
                     "onlyAutomaticGearbox": true
                 },
                 {
-                    "engine": "85 kWh 483BHP",
+                    "engine": "5.0L 540HP",
                     "addPrice": 20000,
-                    "onlyAutomaticGearbox": true
-                },
-                {
-                    "engine": "P100d 572BHP",
-                    "addPrice": 30000,
                     "onlyAutomaticGearbox": true
                 }
             ],
@@ -243,13 +238,13 @@
             ],
             "colors":[
                 {
-                    "colorName": "Arctic White",
-                    "hexValue": "#ffffff",
+                    "colorName": "Brilliant Yellow",
+                    "hexValue": "#f6ff00",
                     "addPrice": 0
                 },
                 {
-                    "colorName": "Brilliant Yellow",
-                    "hexValue": "#f6ff00",
+                    "colorName": "Arctic White",
+                    "hexValue": "#ffffff",
                     "addPrice": 2000
                 },
                 {
