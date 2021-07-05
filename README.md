@@ -24,7 +24,9 @@ Download and install npm from https://www.npmjs.com/get-npm
 And run those comands in project directory:
 ```sh
 git clone https://github.com/marmichno/carCustomization.git
+cd carCustomization
 npm install
+npm start
 ```
 
 ## Available Scripts
