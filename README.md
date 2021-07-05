@@ -4,8 +4,8 @@
 
 ## About project
 
-Customization of a car - Each car has its own configuration with price for every element.
-App doesnt contain backend, configuration is saved in json file which is asynchronously imported simulating get request.
+Customization of a car - Each car has its own configuration with price for every element.<br>
+App doesnt contain backend, configuration is saved in json file which is asynchronously imported simulating get request.<br>
 Car models are compressed using draco compression to adapt them for web standards.
 
 ## Tech
