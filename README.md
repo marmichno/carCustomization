@@ -1,6 +1,6 @@
 # Car customization
 
-![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/72525469/124497169-c42ef780-ddba-11eb-80af-6988376e0382.gif)
+![carCustomization2](https://user-images.githubusercontent.com/72525469/124497707-8e3e4300-ddbb-11eb-932e-71a52b24b577.gif)
 
 ## About project
 
