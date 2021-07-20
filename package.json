@@ -2,7 +2,6 @@
   "name": "custom_car",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marmichno.github.io/carCustomization",
   "dependencies": {
     "@react-three/drei": "^7.0.2",
     "@react-three/fiber": "^7.0.2",
