@@ -6,6 +6,8 @@ export const CarModel = (props) => {
     const group = useRef()
     const currentCar = useSelector(state => state.changeCarReducer);
     const currentColor = useSelector(state => state.selectCarColorReducer);
+
+    if(currentCar.id !== undefined){
     
     const { nodes, materials } = useGLTF(`../../resources/carModels/car${currentCar.id}.gltf`);
     
@@ -17,4 +19,10 @@ export const CarModel = (props) => {
       </group>
     </group>
     )
+
+  }else{
+    return (
+      null
+    )
+  }
 }
