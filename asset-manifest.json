@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/carCustomization/static/css/main.59f475dc.chunk.css",
-    "main.js": "/carCustomization/static/js/main.75396463.chunk.js",
-    "main.js.map": "/carCustomization/static/js/main.75396463.chunk.js.map",
+    "main.js": "/carCustomization/static/js/main.41c3e41f.chunk.js",
+    "main.js.map": "/carCustomization/static/js/main.41c3e41f.chunk.js.map",
     "runtime-main.js": "/carCustomization/static/js/runtime-main.118700d5.js",
     "runtime-main.js.map": "/carCustomization/static/js/runtime-main.118700d5.js.map",
     "static/js/2.57581163.chunk.js": "/carCustomization/static/js/2.57581163.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.118700d5.js",
     "static/js/2.57581163.chunk.js",
     "static/css/main.59f475dc.chunk.css",
-    "static/js/main.75396463.chunk.js"
+    "static/js/main.41c3e41f.chunk.js"
   ]
 }
