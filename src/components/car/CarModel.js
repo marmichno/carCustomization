@@ -7,7 +7,7 @@ export const CarModel = (props) => {
     const currentCar = useSelector(state => state.changeCarReducer);
     const currentColor = useSelector(state => state.selectCarColorReducer);
     
-    const { nodes, materials } = useGLTF(`../../resources/carModels/car${currentCar.id}.gltf`, true);
+    const { nodes, materials } = useGLTF(`/resources/carModels/car${currentCar.id}.gltf`, true);
     console.log(`../../resources/carModels/car${currentCar.id}.gltf`);
     
     if(currentCar.id !== undefined){
