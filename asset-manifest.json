@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/carCustomization/static/css/main.59f475dc.chunk.css",
-    "main.js": "/carCustomization/static/js/main.196fd2e3.chunk.js",
-    "main.js.map": "/carCustomization/static/js/main.196fd2e3.chunk.js.map",
+    "main.js": "/carCustomization/static/js/main.e4b121b3.chunk.js",
+    "main.js.map": "/carCustomization/static/js/main.e4b121b3.chunk.js.map",
     "runtime-main.js": "/carCustomization/static/js/runtime-main.118700d5.js",
     "runtime-main.js.map": "/carCustomization/static/js/runtime-main.118700d5.js.map",
     "static/js/2.57581163.chunk.js": "/carCustomization/static/js/2.57581163.chunk.js",
@@ -15,16 +15,12 @@
     "static/css/main.59f475dc.chunk.css.map": "/carCustomization/static/css/main.59f475dc.chunk.css.map",
     "static/js/2.57581163.chunk.js.LICENSE.txt": "/carCustomization/static/js/2.57581163.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/carCustomization/static/media/background.939a8fc2.jpg",
-    "static/media/car1.94173c60.gltf": "/carCustomization/static/media/car1.94173c60.gltf",
-    "static/media/car2.904def2b.gltf": "/carCustomization/static/media/car2.904def2b.gltf",
-    "static/media/car3.4a1ecffc.gltf": "/carCustomization/static/media/car3.4a1ecffc.gltf",
-    "static/media/car4.52dd0d33.gltf": "/carCustomization/static/media/car4.52dd0d33.gltf",
     "static/media/hdr.a1d22329.hdr": "/carCustomization/static/media/hdr.a1d22329.hdr"
   },
   "entrypoints": [
     "static/js/runtime-main.118700d5.js",
     "static/js/2.57581163.chunk.js",
     "static/css/main.59f475dc.chunk.css",
-    "static/js/main.196fd2e3.chunk.js"
+    "static/js/main.e4b121b3.chunk.js"
   ]
 }
