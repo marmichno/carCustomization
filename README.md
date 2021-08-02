@@ -8,6 +8,8 @@ Customization of a car - Each car has its own configuration with price for every
 App doesnt contain backend, configuration is saved in json file which is asynchronously imported simulating get request.<br>
 Car models are compressed using draco compression to adapt them for web standards.
 
+App live: https://marmichno.github.io/carCustomization/
+
 ## Tech
 
 - react
